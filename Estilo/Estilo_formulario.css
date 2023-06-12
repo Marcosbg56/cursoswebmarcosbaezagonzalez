@@ -1,0 +1,28 @@
+/*Hoja de estilo para el formulario*/
+#form{/*Estilo para el div del formulario*/
+	width:40%;
+	height:80%;
+	border: black 5px solid;
+	background-color:#666666;
+	position:absolute;
+	left:30%;
+	top:10%;
+}
+#icono{/* estilo para los iconos de los elementos del menú*/
+			width:17px;
+			height:17px;
+			vertical-align:middle;
+}
+form fieldset{
+	margin:4px;
+	float: left;
+	width: 48%;
+}
+textarea{
+	width:150px;
+	height:20px;
+}
+#paraphp{
+	margin-left:15px;
+}
+	

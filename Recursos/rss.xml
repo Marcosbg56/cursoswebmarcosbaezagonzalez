@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+	<item>
+		<title>Acerca de </title>
+		<link>http://localhost/WEB_Marcos/Contenido/acercade.html</link>
+		<description>Página de "acerca de" de mi pagina web</description>
+	</item>
+    <item>
+      <title>OpenWebinars</title>
+      <link>https://www.openwebinars.net</link>
+      <description>Página de OpenWebinars</description>
+    </item>
+    <item>
+      <title>LinkedIn</title>
+      <link>https://es.linkedin.com</link>
+      <description>Página de LinkedIn</description>
+    </item>
+  </channel>
+</rss>

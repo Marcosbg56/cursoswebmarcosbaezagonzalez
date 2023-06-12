@@ -1,0 +1,49 @@
+		p,h4{
+			text-color:#2C2C30;
+			margin:10px;
+			text-align:justify;
+		}
+		ul{
+				list-style-type:square;
+				text-align:justify;
+			}
+		a:hover{
+			color:#700B22;
+		}
+		a{
+			color:#0FB2B2;
+		}
+		#logo{/*Imagen de arriba a la izquierda*/
+				height:150px;
+				width:170px;
+				position:absolute;
+				left:3%;
+			}
+		iframe{
+			height:315px;
+			width:560px;
+		}
+		table#menu{
+			position:relative;
+			top:18%;
+			left:12%;
+			/*border:black 2px solid; para visualizar el borde de la tabla */
+			border-collapse: separate;
+			border-spacing:10px;	
+		}
+		table td{/*Estilo para las celdas del menú*/
+			width:100px;
+			height:30px;
+			background-color:#343333;
+		}
+		#icono{/* estilo para los iconos de los elementos del menú*/
+			width:17px;
+			height:17px;
+			vertical-align:middle;
+		}
+		 #menu tr{
+				background-color:red;
+		}
+		
+			
+		

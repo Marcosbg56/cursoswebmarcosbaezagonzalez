@@ -1,0 +1,56 @@
+<!--Formulario-->
+<html>
+	<head>
+		<link href="../Estilo/Estilo_formulario.css" rel="stylesheet" type="text/css">
+		<link href="../Estilo/Estilo_elementos.css" rel="stylesheet" type="text/css">
+		<link href="../Estilo/Estilo_para_todas.css" rel="stylesheet" type="text/css">
+		<script>
+			function comprobar(){
+				event.preventDefault(); 
+				if(formulario.nombre.value==""){
+					alert("Rellena el campo nombre");
+				}
+				else if(formulario.apellidos.value==""){
+					alert("Rellena el campo apellidos");
+				}
+				else if(formulario.sexo.value==""){
+					alert("Selecciona un género");
+				}
+				else {
+					formulario.submit(); 
+					alert("Formulario enviado :)");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="form">
+		<a href="../index.html"><img src="../Recursos/iconoca.png"id="icono"></img>Ir a inicio</a>
+			<form action="../Recursos/doc.php" method="post" name="formulario">
+				<fieldset>
+				<legend>Inicio de sesi&oacute;n</legend>
+				<p>
+				Nombre:
+				<input name="nombre"type="text"></input>
+				</p>
+				<p>
+					Apellidos:
+					<input name="apellidos"type="text"></input>
+				</p>
+				<p>Sexo:</p>
+				<p>Hombre<input type="radio" name="sexo"value="hombre"></p>
+				<p>Mujer<input type="radio"name="sexo"value="mujer"></p>
+				
+				<p>Correo Electr&oacute;nico:<input type="text"size="15" name="correo_elec"></p>
+				<p>Permitir a la pagina enviarte ofertas sobre cursos web <input type="checkbox"name="1"></p>
+				<p>Permitir a la pagina enviarte novedades<input type="checkbox"name="2"></p>
+				Ay&uacute;danos a mejorar<textarea name="opinion" ></textarea>
+				<p><input type="reset"size="30"value="Borrar"></p>
+				<p><input type="submit"size="30" name="enviar" onClick="comprobar()"></p>
+				</fieldset>
+			</form>
+		</div>
+</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,215 @@
+<html>
+	<head>
+		<link href="../Estilo/Estilo_elementos.css" rel="stylesheet" type="text/css">
+		<link href="../Estilo/Estilo_para_todas.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="cabecera">
+			<div id="izq_arr"class="sinfondo">
+				<img src="../Recursos/logo.png"id="logo"></img>
+			</div>
+			<div id="der_arr1"class="fondo">
+			</div>
+			<div id="der_arr2"class="fondo">
+				<table id="menu">
+					<tr>
+						<td><a href="../index.html"><img src="../Recursos/iconoca.png"id="icono"></img>inicio</a></td>
+						<td><a href="html.html"><img src="../Recursos/iconoht.png"id="icono"></img>HTML</a></td>
+						<td><a href="css.html"><img src="../Recursos/iconocs.png"id="icono"></img>CSS</a></td>
+						<td><a href="javascript.html"><img src="../Recursos/iconojv.png"id="icono"></img>Javascript</a></td>
+						<td><a href="c++.html"><img src="../Recursos/iconoc+.png"id="icono"></img>C++</a></td>
+						<td><a href="python.html"><img src="../Recursos/iconopy.png"id="icono"></img>Python</a></td>
+						<td><a href="acercade.html">Acerca De</a></td>
+						<td><a href="Formulario.html">Formulario</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="centro">
+			<div id="centro_izq"class="fondo">
+				<h3>Índice</h3>
+				<ul>
+					<li><a href="#punto1">Introducción</a></li>
+					<li><a href="#punto2">Historia</a></li>
+					<li><a href="#punto3">¿Qué es?</a></li>
+					<li><a href="#punto4">Elementos</a></li>
+					<li><a href="#punto5">Sintaxis</a></li>
+					<li><a href="#punto6">Modelado de cajas</a></li>
+				</ul>
+			</div>
+			<div id="centro_med"class="fondo">
+				<h1>CSS</h1>
+					<h3><a name="punto1">Introducción</a></h3>
+					<p>Originalmente, las páginas HTML sólo incluían información sobre sus contenidos de texto e
+					imagenes. Con el desarrollo del estándar HTML, las páginas empezaron a incluir también
+					información sobre el aspecto de sus contenidos: tipos de letra, colores y márgenes.
+					La posterior aparición de tecnologías como JavaScript, provocaron que las páginas HTML
+					también incluyeran el código de las aplicaciones (llamadas scripts) que se utilizan para crear
+					páginas web dinámicas.</p>
+					<p>Incluir en una misma página HTML los contenidos, el diseño y la programación complica en
+					exceso su mantenimiento. Normalmente, los contenidos y el diseño de la página web son
+					responsabilidad de diferentes personas, por lo que es conveniente separarlos.</p>
+					<p>
+					Una ventaja añadida de la separación de los contenidos y su presentación es que los documentos
+					XHTML creados son más flexibles, ya que se adaptan mejor a las diferentes plataformas:
+					pantallas de ordenador, pantallas de dispositivos móviles, impresoras y dispositivos utilizados
+					por personas discapacitadas.</p>
+					<p>De esta forma, utilizando exclusivamente XHTML se crean páginas web "feas" pero correctas.
+					Aplicando CSS, se pueden crear páginas "bonitas" a partir de las páginas XHTML correctas.</p>
+					<h3><a name="punto2">Historia</a></h3>
+					<p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño 
+					gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ 
+					Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML 
+					o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, 
+					etcétera. Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web para crear páginas 
+					visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles 
+					(como Firefox OS).3</p>
+
+					<p>CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de 
+					este, características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad 
+					del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que 
+					varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir
+					 la complejidad y la repetición de código en la estructura del documento.</p>
+
+					<p>La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para
+					 diferentes métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector 
+					 de pantalla), y dispositivos táctiles basados en el sistema Braille. También se puede mostrar una página web de manera 
+					 diferente dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos 
+					 diferente, como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.</p>
+
+					<p>La especificación CSS describe un esquema prioritario para determinar qué reglas de estilo se aplican si más de una regla 
+					coincide para un elemento en particular. Estas reglas son aplicadas con un sistema llamado de cascada, de modo que las 
+					prioridades son calculadas y asignadas a las reglas, así que los resultados son predecibles.</p>
+
+					<p>La especificación CSS es mantenida por el World Wide Web Consortium (W3C). El MIME type text/css está registrado 
+					para su uso por CSS descrito en el RFC 2318.5​ El W3C proporciona una herramienta de validación de CSS gratuita para 
+					los documentos CSS.</p>
+					<h3><a name="punto3">¿Qué es?</a> </h3>
+					<p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico 
+					para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ Es muy usado para 
+					establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser 
+					aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Junto con HTML y JavaScript, CSS es 
+					una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones
+					web y GUIs para muchas aplicaciones móviles (como Firefox OS).3</p>
+
+					<p>CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, 
+					características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad del
+					documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios 
+					documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la 
+					complejidad y la repetición de código en la estructura del documento.</p>
+
+					<p>La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para 
+					diferentes métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector de 
+					pantalla), y dispositivos táctiles basados en el sistema Braille. También se puede mostrar una página web de manera diferente
+					dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, 
+					como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.</p>
+
+					<p>La especificación CSS describe un esquema prioritario para determinar qué reglas de estilo se aplican si más de una regla 
+					coincide para un elemento en particular. Estas reglas son aplicadas con un sistema llamado de cascada, de modo que las 
+					prioridades son calculadas y asignadas a las reglas, así que los resultados son predecibles.</p>
+
+					<p>La especificación CSS es mantenida por el World Wide Web Consortium (W3C). El MIME type text/css está registrado para
+					su uso por CSS descrito en el RFC 2318.5​ El W3C proporciona una herramienta de validación de CSS gratuita para los documentos CSS.
+					</p>
+					<h3><a name="punto4">Elementos</a></h3>
+					<p>CSS define una serie de términos que permiten describir cada una de las partes que componen
+					los estilos CSS. Los diferentes términos se definen a continuación:</p>
+					<ul>
+					<li>Regla: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está
+					compuesta de una parte de "selectores", un símbolo de "llave de apertura" ({), otra parte
+					denominada "declaración" y por último, un símbolo de "llave de cierre" (}).</li>
+					<li>Selector: indica el elemento o elementos HTML a los que se aplica la regla CSS.</li>
+					<li>Declaración: especifica los estilos que se aplican a los elementos. Está compuesta por una o
+					más propiedades CSS.</li>
+					<li>Propiedad: permite modificar el aspecto de una característica del elemento.</li>
+					<li>Valor: indica el nuevo valor de la característica modificada en el elemento.</li>
+					</ul>
+					<p>Un archivo CSS puede contener infinitas reglas CSS, cada regla puede contener infinitos
+					selectores y cada declaración puede estar formada por un número infinito de pares propiedad/
+					valor.</p>
+					<h3><a name="punto5">Sintaxis</a></h3>
+					<p>Para crear diseños web profesionales, es imprescindible conocer y dominar los selectores de
+					CSS. Como se vio en el capítulo anterior, una regla de CSS está formada por una parte llamada
+					"selector" y otra parte llamada "declaración".</p>
+					<p>La declaración indica "qué hay que hacer" y el selector indica "a quién hay que hacérselo". Por lo
+					tanto, los selectores son imprescindibles para aplicar de forma correcta los estilos CSS en una
+					página.</p>
+					<p>A un mismo elemento HTML se le pueden asignar infinitas reglas CSS y cada regla CSS puede
+					aplicarse a un número infinito de elementos. En otras palabras, una misma regla puede aplicarse
+					sobre varios selectores y un mismo selector se puede utilizar en varias reglas.</p>
+					<p>El estándar de CSS 2.1 incluye una docena de tipos diferentes de selectores, que permiten
+					seleccionar de forma muy precisa elementos individuales o conjuntos de elementos dentro de
+					una página web.</p>
+					</p>No obstante, la mayoría de páginas de los sitios web se pueden diseñar utilizando solamente los
+					cinco selectores básicos.</p>
+					A lo largo de los próximos capítulos, se incluyen las definiciones formales de la mayoría de
+					<p>propiedades de CSS. La definición formal se basa en la información recogida en el estándar
+					oficial y se muestra en forma de tabla.</p>
+					<p>Una de las principales informaciones de cada definición es la lista de posibles valores que admite
+					la propiedad. Para definir la lista de valores permitidos se sigue un formato que es necesario
+					detallar.</p>
+					<p>Si el valor permitido se indica como una sucesión de palabras sin ningún carácter que las separe
+					(paréntesis, comas, barras, etc.) el valor de la propiedad se debe indicar tal y como se muestra y
+					con esas palabras en el mismo orden.</p>
+					<p>Si el valor permitido se indica como una sucesión de valores separados por una barra simple
+					(carácter |) el valor de la propiedad debe tomar uno y sólo uno de los valores indicados. Por
+					ejemplo, la notación &gt porcentaje &lt | &gt medida &lt> | inherit indica que la propiedad solamente
+					puede tomar como valor la palabra reservada inherit o un porcentaje o una medida.</p>
+					<p>Si el valor permitido se indica como una sucesión de valores separados por una barra doble
+					(símbolo ||) el valor de la propiedad puede tomar uno o más valores de los indicados y en
+					cualquier orden.</p>
+					<h3><a name="punto6">Modelado de Cajas</a></h3>
+					<p>El modelo de cajas o "box model" es seguramente la característica más importante del lenguaje
+					de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El "box model" es el
+					comportamiento de CSS que hace que todos los elementos incluidos en una página HTML se
+					representen mediante cajas rectangulares. CSS permite controlar el aspecto de todas las cajas.</p>
+					<p>El diseño de cualquier página XHTML está compuesto por cajas rectangulares. CSS permite
+					definir la altura y anchura de cada caja, el margen existente entre cajas y el espacio de relleno
+					interior que muestra cada caja. Además, CSS permite controlar la forma en la que se visualizan
+					las cajas: se pueden ocultar, desplazar respecto de su posición original y fijarlas en una posición
+					específica dentro del documento.</p>
+					<p>Las partes que componen cada caja y su orden de visualización desde el punto de vista del
+					usuario son las siguientes:
+					<ul>
+					<li>Contenido (content): se trata del contenido HTML del elemento (las palabras de un
+					párrafo, una imagen, el texto de una lista de elementos, etc.)</li>
+					<li>Relleno (padding): espacio libre opcional entre el contenido y el borde que lo encierra.</li>
+					<li>Borde (border): línea que encierra completamente el contenido y su relleno.</li>
+					<li>Imagen de fondo (background image): imagen que se muestra por detrás del contenido y el
+					espacio de relleno.</li>
+					<li>Color de fondo (background color): color que se muestra por detrás del contenido y el
+					espacio de relleno.</li>
+					<li>Margen (margin): espacio libre entre la caja y las posibles cajas adyacentes.</li>
+					</ul>
+					<p>El relleno y el margen son transparentes, por lo que en el espacio ocupado por el relleno se
+					muestra el color o imagen de fondo (si están definidos) y en el espacio ocupado por el margen se
+					muestra el color o imagen de fondo de su elemento padre (si están definidos). Si ningún
+					elemento padre tiene definido un color o imagen de fondo, se muestra el color o imagen de fondo
+					de la propia página (si están definidos).</p>
+					<p>Si una caja define tanto un color como una imagen de fondo, la imagen tiene más prioridad y es
+					la que se visualiza. No obstante, si la imagen de fondo no cubre totalmente la caja del elemento o
+					si la imagen tiene zonas transparentes, también se visualiza el color de fondo. Combinando
+					imagenes transparentes y colores de fondo se pueden lograr efectos gráficos muy interesantes.</p>
+			</div>
+			<div id="centro_der"class="fondo">
+				<h3>Contacta con nosotros</h3>
+				<p>
+					<ul>
+						<li><a href="https://www.facebook.com">Facebook</a></li>
+						<li><a href="https://www.instagram.com">Instagram</a></li>
+						<li><a href="mailto:marcosbaezagonzalez4@gmail.com">E-mail</a></li>
+						<li><a href="https://es.linkedin.com">Linkedin</a></li>
+					</ul>
+					<h1>Feed RSS</h1>
+					<p>Noticias enlace RSS</p>
+					<p>
+					<img src="../Recursos/rss.png" id="icono"></img>
+					<a href="../Recursos/rss.xml">Abrir RSS</a>
+					</p>
+				</p>
+					
+			</div>
+		</div>
+		
+	</body>
+</html>

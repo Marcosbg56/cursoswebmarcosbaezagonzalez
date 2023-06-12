@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<link href="../Estilo/Estilo_elementos.css" rel="stylesheet" type="text/css">
+		<link href="../Estilo/Estilo_para_todas.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="cabecera">
+			<div id="izq_arr"class="sinfondo">
+				<img src="../Recursos/logo.png"id="logo"></img>
+			</div>
+			<div id="der_arr1"class="fondo">
+			</div>
+			<div id="der_arr2"class="fondo">
+				<table id="menu">
+					<tr>
+						<td><a href="../index.html"><img src="../Recursos/iconoca.png"id="icono"></img>inicio</a></td>
+						<td><a href="html.html"><img src="../Recursos/iconoht.png"id="icono"></img>HTML</a></td>
+						<td><a href="css.html"><img src="../Recursos/iconocs.png"id="icono"></img>CSS</a></td>
+						<td><a href="javascript.html"><img src="../Recursos/iconojv.png"id="icono"></img>Javascript</a></td>
+						<td><a href="c++.html"><img src="../Recursos/iconoc+.png"id="icono"></img>C++</a></td>
+						<td><a href="python.html"><img src="../Recursos/iconopy.png"id="icono"></img>Python</a></td>
+						<td><a href="acercade.html">Acerca De</a></td>
+						<td><a href="Formulario.html">Formulario</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="centro">
+			<div id="centro_izq"class="fondo">
+				<h3>Índice</h3>
+				<ul>
+					<li><a href="#punto1">Historia</a></li>
+					<li><a href="#punto2">¿Qué es?</a></li>
+					<li><a href="#punto3">Especificaciones oficiales</a></li>
+					<li><a href="#punto4">Glosario</a></li>
+					<li><a href="#punto5">Sintaxis</a></li>
+					<li><a href="#punto6">Javascript en Entornos</a></li>
+					<li><a href="#punto7">Integración con XHTML</a></li>
+				</ul>
+			</div>
+			<div id="centro_med"class="fondo">
+				<h1>Javascript</h1>
+					<h3><a name="punto1">Historia</a></h3>
+					<p>
+					<p>A principios de los años 90, la mayoría de usuarios que se conectaban a Internet lo
+					hacían con módems a una velocidad máxima de 28.8 kbps. En esa época, empezaban a
+					desarrollarse las primeras aplicaciones web y por tanto, las páginas web comenzaban a
+					incluir formularios complejos.</p>
+					<p>Con unas aplicaciones web cada vez más complejas y una velocidad de navegación tan
+					lenta, surgió la necesidad de un lenguaje de programación que se ejecutara en el
+					navegador del usuario. De esta forma, si el usuario no rellenaba correctamente un
+					formulario, no se le hacía esperar mucho tiempo hasta que el servidor volviera a
+					mostrar el formulario indicando los errores existentes.</p>
+					<p>Brendan Eich, un programador que trabajaba en Netscape, pensó que podría solucionar
+					este problema adaptando otras tecnologías existentes (como ScriptEase) al navegador
+					Netscape Navigator 2.0, que iba a lanzarse en 1995. Inicialmente, Eich denominó a su
+					lenguaje LiveScript.</p>
+					<p>Posteriormente, Netscape firmó una alianza con Sun Microsystems para el desarrollo del
+					nuevo lenguaje de programación. Además, justo antes del lanzamiento Netscape decidió
+					cambiar el nombre por el de JavaScript. La razón del cambio de nombre fue
+					exclusivamente por marketing, ya que Java era la palabra de moda en el mundo
+					informático y de Internet de la época.</p>
+					<p>La primera versión de JavaScript fue un completo éxito y Netscape Navigator 3.0 ya
+					incorporaba la siguiente versión del lenguaje, la versión 1.1. Al mismo tiempo, Microsoft
+					lanzó JScript con su navegador Internet Explorer 3. JScript era una copia de JavaScript al
+					que le cambiaron el nombre para evitar problemas legales.</p>
+					<p>Para evitar una guerra de tecnologías, Netscape decidió que lo mejor sería estandarizar
+					el lenguaje JavaScript. De esta forma, en 1997 se envió la especificación JavaScript 1.1 al
+					organismo ECMA (European Computer Manufacturers Association).</p>
+					<p>ECMA creó el comité TC39 con el objetivo de "estandarizar de un lenguaje de script
+					multiplataforma e independiente de cualquier empresa". El primer estándar que creó el
+					comité TC39 se denominó ECMA-262, en el que se definió por primera vez el lenguaje
+					ECMAScript.</p>
+					<p>Por este motivo, algunos programadores prefieren la denominación ECMAScript para
+					referirse al lenguaje JavaScript. De hecho, JavaScript no es más que la implementación
+					que realizó la empresa Netscape del estándar ECMAScript.
+					La organización internacional para la estandarización (ISO) adoptó el estándar
+					ECMA-262 a través de su comisión IEC, dando lugar al estándar ISO/IEC-16262.</p>
+					<h3><a name="punto2">¿Qué es?</a></h3>
+					<p>
+					JavaScript es un lenguaje de programación que se utiliza principalmente para crear
+					páginas web dinámicas.
+					Una página web dinámica es aquella que incorpora efectos como texto que aparece y
+					desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con
+					mensajes de aviso al usuario.</p>
+					<p>Técnicamente, JavaScript es un lenguaje de programación interpretado, por lo que no es
+					necesario compilar los programas para ejecutarlos. En otras palabras, los programas
+					escritos con JavaScript se pueden probar directamente en cualquier navegador sin
+					necesidad de procesos intermedios.</p>
+					<p>A pesar de su nombre, JavaScript no guarda ninguna relación directa con el lenguaje de
+					programación Java. Legalmente, JavaScript es una marca registrada de la empresa Sun
+					Microsystems, como se puede ver en http://www.sun.com/suntrademarks/.</p>
+					<h3><a name="punto3">Especificaciones Oficiales</a></h3>
+					<p>ECMA ha publicado varios estándares relacionados con ECMAScript. En Junio de 1997 se
+					publicó la primera edición del estándar ECMA-262. Un año después, en Junio de 1998 se
+					realizaron pequeñas modificaciones para adaptarlo al estandar ISO/IEC-16262 y se creó
+					la segunda edición.</p>
+					<p>La tercera edición del estándar ECMA-262 (publicada en Diciembre de 1999) es la
+					versión que utilizan los navegadores actuales y se puede consultar gratuitamente en
+					http://www.ecma-international.org/publications/standards/Ecma-262.htm.</p>
+					<p>Actualmente se encuentra en desarrollo la cuarta versión de ECMA-262, que podría
+					incluir novedades como paquetes, namespaces, definición explícita de clases, etc.
+					ECMA también ha definido varios estándares relacionados con ECMAScript, como el
+					estándar ECMA-357, que define una extensión conocida como E4X y que permite la
+					integración de JavaScript y XML.</p>
+					<h3><a name="punto4">Glosario</a></h3>
+					<p>Script: cada uno de los programas, aplicaciones o trozos de código creados con el
+					lenguaje de programación JavaScript. Unas pocas líneas de código forman un script y un
+					archivo de miles de líneas de JavaScript también se considera un script. A veces se
+					traduce al español directamente como "guión", aunque script es una palabra más
+					adecuada y comúnmente aceptada.</p>
+					<p>Sentencia: cada una de las instrucciones que forman un script.</p>
+					<p>Palabras reservadas: son las palabras (en inglés) que se utilizan para construir las
+					sentencias de JavaScript y que por tanto no pueden ser utilizadas libremente. Las
+					palabras actualmente reservadas por JavaScript son: break, case, catch, continue,
+					default, delete, do, else, finally, for, function, if, in, instanceof, new, return,
+					switch, this, throw, try, typeof, var, void, while, with.</p>
+					<h3><a name="punto5">Sintaxis</a></h3>
+					<p>La sintaxis de un lenguaje de programación se define como el conjunto de reglas que
+					deben seguirse al escribir el código fuente de los programas para considerarse como
+					correctos para ese lenguaje de programación.</p>
+					<p>La sintaxis de JavaScript es muy similar a la de otros lenguajes de programación como
+					Java y C. Las normas básicas que definen la sintaxis de JavaScript son las siguientes:
+					<ul>
+					<li>No se tienen en cuenta los espacios en blanco y las nuevas líneas: como
+					sucede con XHTML, el intérprete de JavaScript ignora cualquier espacio en blanco
+					sobrante, por lo que el código se puede ordenar de forma adecuada para
+					entenderlo mejor (tabulando las líneas, añadiendo espacios, creando nuevas
+					líneas, etc.)</li>
+					<li>Se distinguen las mayúsculas y minúsculas: al igual que sucede con la sintaxis
+					de las etiquetas y elementos XHTML. Sin embargo, si en una página XHTML se
+					utilizan indistintamente mayúsculas y minúsculas, la página se visualiza
+					correctamente, siendo el único problema la no validación de la página. En cambio,
+					si en JavaScript se intercambian mayúsculas y minúsculas el script no funciona.</li>
+					<li>No se define el tipo de las variables: al crear una variable, no es necesario
+					indicar el tipo de dato que almacenará. De esta forma, una misma variable puede
+					almacenar diferentes tipos de datos durante la ejecución del script.</li>
+					<li>No es necesario terminar cada sentencia con el carácter de punto y coma (;):
+					en la mayoría de lenguajes de programación, es obligatorio terminar cada
+					sentencia con el carácter ;. Aunque JavaScript no obliga a hacerlo, es conveniente
+					seguir la tradición de terminar cada sentencia con el carácter del punto y coma
+					(;).</li>
+					<li>Se pueden incluir comentarios: los comentarios se utilizan para añadir 
+					información en el código fuente del programa. Aunque el contenido de los
+					comentarios no se visualiza por pantalla, si que se envía al navegador del usuario
+					junto con el resto del script, por lo que es necesario extremar las precauciones
+					sobre la información incluida en los comentarios.</li>
+					</ul>
+					</p>
+					</p>
+					<h3><a name="punto6">Javascript en Entornos</a></h3>
+					<p>La inigualable popularidad de JavaScript como lenguaje de programación de
+					aplicaciones web se ha extendido a otras aplicaciones y otros entornos no relacionados
+					con la web.</p>
+					<p>Herramientas como Adobe Acrobat permiten incluir código JavaScript en archivos PDF.
+					Otras herramientas de Adobe como Flash y Flex utilizan ActionScript, un dialecto del
+					mismo estándar de JavaScript.</p>
+					<p>Photoshop permite realizar pequeños scripts mediante JavaScript y la versión 6 de Java
+					incluye un nuevo paquete (denominado javax.script) que permite integrar ambos
+					lenguajes.</p>
+					<p>Por último, aplicaciones como Yahoo Widgets (http://widgets.yahoo.com/) y el
+					Dashboard de Apple (http://www.apple.com/downloads/dashboard/) utilizan
+					JavaScript para programar sus widgets.</p>
+					<h3><a name="punto7">Integración con XHTML</a></h3>
+					<p>El código JavaScript se encierra entre etiquetas y se incluye en cualquier parte
+					del documento. Aunque es correcto incluir cualquier bloque de código en cualquier zona
+					de la página, se recomienda definir el código JavaScript dentro de la cabecera del
+					documento (dentro de la etiqueta head):</p>
+					<p>Para que la página XHTML resultante sea válida, es necesario añadir el atributo type a la
+					etiqueta &gt script&gl . Los valores que se incluyen en el atributo type están estandarizados
+					y para el caso de JavaScript, el valor correcto es text/javascript.</p>
+					<p>Este método se emplea cuando se define un bloque pequeño de código o cuando se
+					quieren incluir instrucciones específicas en un determinado documento HTML que
+					completen las instrucciones y funciones que se incluyen por defecto en todos los
+					documentos del sitio web.</p>
+					<p>El principal inconveniente es que si se quiere hacer una modificación en el bloque de
+					código, es necesario modificar todas las páginas que incluyen ese mismo bloque de
+					código JavaScript.</p>
+			</div>
+			<div id="centro_der"class="fondo">
+				<h3>Contacta con nosotros</h3>
+				<p>
+					<ul>
+						<li><a href="https://www.facebook.com">Facebook</a></li>
+						<li><a href="https://www.instagram.com">Instagram</a></li>
+						<li><a href="mailto:marcosbaezagonzalez4@gmail.com">E-mail</a></li>
+						<li><a href="https://es.linkedin.com">Linkedin</a></li>
+					</ul>
+					<h1>Feed RSS</h1>
+					<p>Noticias enlace RSS</p>
+					<p>
+					<img src="../Recursos/rss.png" id="icono"></img>
+					<a href="../Recursos/rss.xml">Abrir RSS</a>
+					</p>
+				</p>
+					
+			</div>
+		</div>
+		
+	</body>
+</html>

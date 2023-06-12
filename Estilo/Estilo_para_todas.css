@@ -1,0 +1,74 @@
+		/*
+		Estilo que tienen todas las paginas:
+		Divisiones(tamaños, colocación, fondo de body,etc)
+		*/
+		*{
+			font-family:Bahnschrift;
+		}
+		body{
+			background: linear-gradient(170deg, #636363, #77D9EC);
+		}
+		
+		.fondo{
+			background-color:#2666F0;
+			border-color:black;
+			background: linear-gradient(to top right,#5C5C5C,#444444);
+			border-style:solid;
+		}
+		.sinfondo{
+			background-color: rgba(255, 0, 0, 0.5)*/ /*Para hacer el fondo transparente*/
+		}
+		#cabecera{
+			height:20%;
+			width:100%;
+		}
+			#izq_arr{
+				width:18%;
+				height:100%;
+				float:left;
+			}
+			#der_arr1{
+				width:80%;
+				height:27%;
+				float:right;
+				margin:auto;
+				opacity:0;
+			}
+			#der_arr2{
+				width:80%;
+				height:45%;
+				float:right;
+				opacity:1;
+			}
+			#centro{
+				width:100%;
+				height:30%;
+			}
+			#centro_izq{
+				width:18%;
+				height:73%;
+				float:left;
+				position:absolute;
+				top:25%;
+			}
+			#centro_med{
+				width:68%;
+				height:78%;
+				float:left;
+				margin:auto;
+				margin-left:20px;
+				position:absolute;
+				top:20%;
+				left:18.5%;
+				overflow:scroll;
+			}
+			#centro_der{
+				width:10%;
+				height:450px;
+				float:right;
+				margin:auto;
+				position:relative;
+				top:4%;
+			}
+			
+			
